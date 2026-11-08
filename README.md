@@ -50,6 +50,24 @@ The analysis is not a trading strategy or investment recommendation.
 
 The `CPI_GitHub_Upload_Files_NEW/` folder contains the Python analysis script, CSV event datasets, Excel dashboard and visualisations.
 
+
+## Reproducibility
+
+The analysis uses `uk_cpi_cross_asset_event_study_2024.csv` as its prepared event-level input dataset.
+
+To reproduce the calculations:
+
+1. Download the repository files.
+2. Install the dependencies using `pip install -r requirements.txt`.
+3. Run `python market_reaction_analysis.py` from the folder containing the script and dataset.
+4. Review the generated `reproduced_findings.csv`, `reproduced_directional_hit_rates.csv`, `reproduced_event_risk.csv` and `reproduced_cpi_vs_2y.png`.
+
+The script recalculates correlations, directional consistency, illustrative DV01-based P&L and the CPI-versus-2Y scatter chart.
+
+**Scope:** The script reproduces the analysis from the prepared dataset. It does not currently automate the retrieval, verification or cleaning of the underlying historical CPI consensus and market-price series.
+
+**Interpretation:** Results are descriptive associations from 12 daily event windows, not causal estimates or evidence of a profitable trading strategy.
+
 ## Data Sources
 
 - Office for National Statistics — UK consumer price inflation releases
