@@ -48,8 +48,7 @@ The analysis is not a trading strategy or investment recommendation.
 
 ## Project Files
 
-The `CPI_GitHub_Upload_Files_NEW/` folder contains the Python analysis script, CSV event datasets, Excel dashboard and visualisations.
-
+The repository root contains the Python analysis script, input event dataset, requirements file and project README. The CPI_GitHub_Upload_Files_NEW/ folder contains the Excel dashboard, visualisations and additional analysis outputs.
 
 ## Reproducibility
 
